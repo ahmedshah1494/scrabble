@@ -1,0 +1,383 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+
+\usepackage{fancyhdr}
+
+\oddsidemargin0cm
+\topmargin-2cm
+\textwidth16.5cm
+\textheight23.5cm
+
+\newcommand{\question}[2]{\vspace{.25in} \hrule\vspace{0.5em}
+\noindent{\bf #1: #2} \vspace{0.5em}
+\hrule \vspace{.10in}}
+\renewcommand{\part}[1]{\vspace{.10in} {\bf (#1)}}
+
+\newcommand{\myname}{Write your name here!}
+\newcommand{\myandrew}{write-your-andrew-id-here@andrew.cmu.edu}
+\newcommand{\myhwnum}{homework-number-here}
+
+
+
+
+
+\lhead{\fancyplain{}{\textbf{HW\myhwnum}}}
+\rhead{\fancyplain{}{\myname\\ \myandrew}}
+\chead{\fancyplain{}{15-150}}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip 5pt
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+15-214 Homework 4
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Muhammad Ahmed Shah 
+\begin_inset Newline newline
+\end_inset
+
+ mshah1 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+Behvioral Contract
+\end_layout
+
+\begin_layout Standard
+When a player tries to place a tile, first it has to request the 
+\family typewriter
+GameEngine
+\family default
+ to provide it with a 
+\family typewriter
+move
+\family default
+ object.
+ If the player is not the 
+\family typewriter
+activePlayer
+\family default
+ or 
+\family typewriter
+gameOver=true
+\family default
+ a null object will be returned and hence not allowing the player to make
+ moves out of turn or in an inactive game.
+\end_layout
+
+\begin_layout Standard
+If the above conditions are satisfied and a 
+\family typewriter
+move
+\family default
+ object is porvided, the tile along with its corresponding location is stored
+ in the 
+\family typewriter
+move 
+\family default
+object temporarily.
+ When the player calls 
+\family typewriter
+placeLetterTile 
+\family default
+or
+\family typewriter
+ placeSpecialTile 
+\family default
+to place a tile at the specified location on the board, the 
+\family typewriter
+BoardSquare 
+\family default
+at that location is checked if its vacant using the 
+\family typewriter
+isVacant 
+\family default
+function for the 
+\family typewriter
+BoardSquare
+\family default
+.
+ So we define an invariant that every tile-location pair in a 
+\family typewriter
+move
+\family default
+ object refers to an empty 
+\family typewriter
+BoardSquare
+\family default
+ or one which has a 
+\family typewriter
+SpecialTile
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+When the player calls 
+\family typewriter
+endMove
+\family default
+ the tiles in the 
+\family typewriter
+move
+\family default
+ are placed on the board and then 
+\family typewriter
+board.validate 
+\family default
+makes sure that all the tile placements form valid words.
+ In doing so it adds the tiles and their corresponding locations to the
+ 
+\family typewriter
+letterTilesOld
+\family default
+ hashMap in the 
+\family typewriter
+move
+\family default
+ object.
+ So here we can define as a precondition that when 
+\family typewriter
+executeMove
+\family default
+ is called the tile placements form valid words.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+executeMove
+\family default
+ checks the locations occupied by the in 
+\family typewriter
+letterTiles
+\family default
+ have a special tine underneath , if it was then it is added to its 
+\family typewriter
+activate
+\family default
+ function would be called and the state of the board (in this case the changes
+ would also be reflected in the 
+\family typewriter
+move
+\family default
+ object) or the behaviour of the game would be altered accordingly.
+ The execution of the 
+\family typewriter
+activate
+\family default
+ functions happens independently so if multiple 
+\family typewriter
+SpecialTiles
+\family default
+ were hit then their respective 
+\family typewriter
+activate
+\family default
+ functions will be called in the order they where hit and their effects
+ would be stacked.
+\end_layout
+
+\begin_layout Standard
+Then the 
+\family typewriter
+moveScore
+\family default
+ method calculates the total score of the move by using the 
+\family typewriter
+getSquareScore
+\family default
+ method in each 
+\family typewriter
+BoardSquare
+\family default
+ referred to in the, now altered, 
+\family typewriter
+move
+\family default
+ object.
+ The 
+\family typewriter
+getSquareScore
+\family default
+ method returns the point value of a 
+\family typewriter
+LetterTile
+\family default
+ multiplied by the defined multiplier (in case of a double or tripple letter
+ score square).
+ If a multiplier has been applied once the 
+\family typewriter
+multiplierUsed
+\family default
+ attribute of the 
+\family typewriter
+BoardSquare
+\family default
+ is set to true and all subsequent calls to the 
+\family typewriter
+getSquareScore
+\family default
+ function will use 1 as the multiplier.
+ Since the locations of the double and triple word score squares are predefined
+ in the board, one scan through the list of locations can tell us if any
+ of then are occupied and then the appropriate multiplier can be applied
+ over the total score.
+ Once again the 
+\family typewriter
+multiplierUsed
+\family default
+ attribute will be used to keep track of the multiplier squares already
+ used.
+\end_layout
+
+\begin_layout Standard
+The calculated score is stored in the 
+\family typewriter
+scorer
+\family default
+ by a call to the 
+\family typewriter
+updateScore
+\family default
+ function.
+\end_layout
+
+\begin_layout Standard
+To Summarize:
+\end_layout
+
+\begin_layout Enumerate
+
+\family typewriter
+@requires: !(game.gameOver) && player.equals(game.activePlayer)
+\begin_inset Newline newline
+\end_inset
+
+Player.newMove()
+\end_layout
+
+\begin_layout Enumerate
+
+\family typewriter
+@requires: for every Pair(i,j) in move board.isVacant(player,i,j)
+\begin_inset Newline newline
+\end_inset
+
+@ensures: true if the tiles in move form a valid word themselves and with
+ the adjacent tiles.
+\begin_inset Newline newline
+\end_inset
+
+board.validate()
+\end_layout
+
+\begin_layout Enumerate
+
+\family typewriter
+@requires: board.validate() == true
+\begin_inset Newline newline
+\end_inset
+
+@ensures: score is the sum of the point value of each tile adjusted according
+ to the appropriate multiplier, any special tiles hit cause the effect on
+ the game as intended
+\begin_inset Newline newline
+\end_inset
+
+board.updateBoard(move)
+\end_layout
+
+\end_body
+\end_document

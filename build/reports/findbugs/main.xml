@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1448230787470" analysisTimestamp="1448230787501" release="">
+  <Project projectName="">
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Bag.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/BoardSquare.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/BoomTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Dictionary.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/GameBoard.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/GameEngine.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/LetterTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Location.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Move.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/NegativePointsTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Player.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/Rack.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/ReversePlayerOrderTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/SnatchTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/SpecialTile.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/core/SpecialTileShop.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/EndMoveListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/GameChangeListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/Main$1.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/Main.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/RackListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/ShopListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/SkipListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/SquareListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/SwapListener.class</Jar>
+    <Jar>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/build/classes/main/edu/cmu/qatar/cs214/hw4/gui/UndoListener.class</Jar>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Bag.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/BoardSquare.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/BoomTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Dictionary.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/GameBoard.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/GameEngine.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/LetterTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Location.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Move.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/NegativePointsTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Player.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Rack.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/ReversePlayerOrderTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SnatchTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SpecialTile.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SpecialTileShop.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/EndMoveListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/GameChangeListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/Main.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/RackListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/ShopListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SkipListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SquareListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SwapListener.java</SrcDir>
+    <SrcDir>/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/UndoListener.java</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="edu.cmu.qatar.cs214.hw4.core.Dictionary">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.Dictionary" start="24" end="43" sourcefile="Dictionary.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/Dictionary.java"/>
+    </Class>
+    <Method classname="edu.cmu.qatar.cs214.hw4.core.Dictionary" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.Dictionary" start="24" end="34" startBytecode="0" endBytecode="189" sourcefile="Dictionary.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/Dictionary.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="611" end="612" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.Dictionary" start="26" end="26" startBytecode="27" endBytecode="27" sourcefile="Dictionary.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/Dictionary.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="edu.cmu.qatar.cs214.hw4.core.GameEngine">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.GameEngine" start="61" end="646" sourcefile="GameEngine.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/GameEngine.java"/>
+    </Class>
+    <Method classname="edu.cmu.qatar.cs214.hw4.core.GameEngine" name="startGame" signature="()Z" isStatic="false">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.GameEngine" start="90" end="126" startBytecode="0" endBytecode="612" sourcefile="GameEngine.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/GameEngine.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.GameEngine" start="102" end="102" startBytecode="91" endBytecode="91" sourcefile="GameEngine.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/GameEngine.java"/>
+    <SourceLine classname="edu.cmu.qatar.cs214.hw4.core.GameEngine" start="103" end="103" startBytecode="104" endBytecode="104" sourcefile="GameEngine.java" sourcepath="edu/cmu/qatar/cs214/hw4/core/GameEngine.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" start="62" end="465" sourcefile="GameBoardPanel.java" sourcepath="edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java"/>
+    </Class>
+    <Method classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" name="getLetterButtons" signature="()[Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" start="108" end="108" startBytecode="0" endBytecode="46" sourcefile="GameBoardPanel.java" sourcepath="edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java"/>
+    </Method>
+    <Field classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" name="letterButtons" signature="[Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" sourcefile="GameBoardPanel.java" sourcepath="edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java"/>
+    </Field>
+    <SourceLine classname="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" start="108" end="108" startBytecode="4" endBytecode="4" sourcefile="GameBoardPanel.java" sourcepath="edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 23 Nov 2015 01:19:47 +0300" total_classes="27" referenced_classes="322" total_bugs="3" total_size="1394" num_packages="2" java_version="1.8.0_60" vm_version="25.60-b23" cpu_seconds="14.67" clock_seconds="3.23" peak_mbytes="348.19" alloc_mbytes="3641.00" gc_seconds="0.08" priority_2="1" priority_1="2">
+    <PackageStats package="edu.cmu.qatar.cs214.hw4.core" total_bugs="2" total_types="16" total_size="943" priority_1="2">
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Bag" sourceFile="Bag.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.BoardSquare" sourceFile="BoardSquare.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.BoomTile" sourceFile="BoomTile.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Dictionary" sourceFile="Dictionary.java" interface="false" size="13" bugs="1" priority_1="1"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.GameBoard" sourceFile="GameBoard.java" interface="false" size="234" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.GameEngine" sourceFile="GameEngine.java" interface="false" size="305" bugs="1" priority_1="1"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.LetterTile" sourceFile="LetterTile.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Location" sourceFile="Location.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Move" sourceFile="Move.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.NegativePointsTile" sourceFile="NegativePointsTile.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Player" sourceFile="Player.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.Rack" sourceFile="Rack.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.ReversePlayerOrderTile" sourceFile="ReversePlayerOrderTile.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.SnatchTile" sourceFile="SnatchTile.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.SpecialTile" sourceFile="SpecialTile.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.core.SpecialTileShop" sourceFile="SpecialTileShop.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.cmu.qatar.cs214.hw4.gui" total_bugs="1" total_types="11" total_size="451" priority_2="1">
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.EndMoveListener" sourceFile="EndMoveListener.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.GameBoardPanel" sourceFile="GameBoardPanel.java" interface="false" size="219" bugs="1" priority_2="1"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.GameChangeListener" sourceFile="GameChangeListener.java" interface="true" size="9" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.Main" sourceFile="Main.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.Main$1" sourceFile="Main.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.RackListener" sourceFile="RackListener.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.ShopListener" sourceFile="ShopListener.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.SkipListener" sourceFile="SkipListener.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.SquareListener" sourceFile="SquareListener.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.SwapListener" sourceFile="SwapListener.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="edu.cmu.qatar.cs214.hw4.gui.UndoListener" sourceFile="UndoListener.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="370" invocations="1544" avgMicrosecondsPerInvocation="240" maxMicrosecondsPerInvocation="16743" standardDeviationMircosecondsPerInvocation="742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="281" invocations="322" avgMicrosecondsPerInvocation="875" maxMicrosecondsPerInvocation="15069" standardDeviationMircosecondsPerInvocation="1747"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="184" invocations="871" avgMicrosecondsPerInvocation="211" maxMicrosecondsPerInvocation="2417" standardDeviationMircosecondsPerInvocation="242"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="139" invocations="1549" avgMicrosecondsPerInvocation="90" maxMicrosecondsPerInvocation="1375" standardDeviationMircosecondsPerInvocation="148"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="118" invocations="176" avgMicrosecondsPerInvocation="672" maxMicrosecondsPerInvocation="9337" standardDeviationMircosecondsPerInvocation="1316"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="110" invocations="181" avgMicrosecondsPerInvocation="608" maxMicrosecondsPerInvocation="7739" standardDeviationMircosecondsPerInvocation="1219"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="106" invocations="176" avgMicrosecondsPerInvocation="605" maxMicrosecondsPerInvocation="8566" standardDeviationMircosecondsPerInvocation="1180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="105" invocations="176" avgMicrosecondsPerInvocation="601" maxMicrosecondsPerInvocation="8658" standardDeviationMircosecondsPerInvocation="1209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="83" invocations="176" avgMicrosecondsPerInvocation="472" maxMicrosecondsPerInvocation="6881" standardDeviationMircosecondsPerInvocation="857"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="79" invocations="322" avgMicrosecondsPerInvocation="247" maxMicrosecondsPerInvocation="5376" standardDeviationMircosecondsPerInvocation="528"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="72" invocations="377" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="12328" standardDeviationMircosecondsPerInvocation="687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="70" invocations="129" avgMicrosecondsPerInvocation="543" maxMicrosecondsPerInvocation="7669" standardDeviationMircosecondsPerInvocation="1018"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="66" invocations="322" avgMicrosecondsPerInvocation="206" maxMicrosecondsPerInvocation="9992" standardDeviationMircosecondsPerInvocation="1029"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="65" invocations="176" avgMicrosecondsPerInvocation="372" maxMicrosecondsPerInvocation="8661" standardDeviationMircosecondsPerInvocation="772"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="63" invocations="176" avgMicrosecondsPerInvocation="363" maxMicrosecondsPerInvocation="31071" standardDeviationMircosecondsPerInvocation="2347"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="60" invocations="1495" avgMicrosecondsPerInvocation="40" maxMicrosecondsPerInvocation="12222" standardDeviationMircosecondsPerInvocation="325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="52" invocations="322" avgMicrosecondsPerInvocation="164" maxMicrosecondsPerInvocation="3265" standardDeviationMircosecondsPerInvocation="286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="50" invocations="322" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="2119" standardDeviationMircosecondsPerInvocation="291"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="48" invocations="322" avgMicrosecondsPerInvocation="150" maxMicrosecondsPerInvocation="3679" standardDeviationMircosecondsPerInvocation="337"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="45" invocations="322" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="7939" standardDeviationMircosecondsPerInvocation="474"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="43" invocations="184" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="27862" standardDeviationMircosecondsPerInvocation="2045"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

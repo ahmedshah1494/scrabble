@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Bag.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/BoardSquare.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/BoomTile.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Dictionary.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/GameBoard.java">
+<error line="231" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/GameEngine.java">
+<error line="629" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/LetterTile.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Location.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Move.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/NegativePointsTile.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Player.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/Rack.java">
+<error line="20" column="28" severity="error" message="Name &apos;RACK_SIZE&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="151" severity="error" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/ReversePlayerOrderTile.java">
+<error line="26" column="39" severity="error" message="Expected @param tag for &apos;loc&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SnatchTile.java">
+<error line="22" column="39" severity="error" message="Expected @param tag for &apos;loc&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SpecialTile.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/core/SpecialTileShop.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/EndMoveListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/GameBoardPanel.java">
+<error line="6" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="17" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="62" column="20" severity="error" message="Variable &apos;selectedLetterTileIdx&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="65" column="23" severity="error" message="Variable &apos;selectedSpecialTile&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="74" column="24" severity="error" message="Variable &apos;selectingSwapTiles&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="83" column="39" severity="error" message="Variable &apos;lastPlacedLocation&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/GameChangeListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/Main.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/RackListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/ShopListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SkipListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SquareListener.java">
+<error line="6" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.event.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/SwapListener.java">
+</file>
+<file name="/Users/Ahmed/Downloads/15-214/mshah1/homework/4/src/main/java/edu/cmu/qatar/cs214/hw4/gui/UndoListener.java">
+</file>
+</checkstyle>

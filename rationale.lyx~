@@ -1,0 +1,289 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+
+\usepackage{fancyhdr}
+
+\oddsidemargin0cm
+\topmargin-2cm
+\textwidth16.5cm
+\textheight23.5cm
+
+\newcommand{\question}[2]{\vspace{.25in} \hrule\vspace{0.5em}
+\noindent{\bf #1: #2} \vspace{0.5em}
+\hrule \vspace{.10in}}
+\renewcommand{\part}[1]{\vspace{.10in} {\bf (#1)}}
+
+\newcommand{\myname}{Write your name here!}
+\newcommand{\myandrew}{write-your-andrew-id-here@andrew.cmu.edu}
+\newcommand{\myhwnum}{homework-number-here}
+
+
+
+
+
+\lhead{\fancyplain{}{\textbf{HW\myhwnum}}}
+\rhead{\fancyplain{}{\myname\\ \myandrew}}
+\chead{\fancyplain{}{15-150}}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip 5pt
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+15-214 Homework 4
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Muhammad Ahmed Shah 
+\begin_inset Newline newline
+\end_inset
+
+ mshah1 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+Rationale
+\end_layout
+
+\begin_layout Standard
+This design achieves modular continuity in special tiles through the use
+ of the strategy and template pattern by abstracting the Special Tiles behind
+ the 
+\family typewriter
+SpecialTile
+\family default
+ which is an abstract.
+ This would allow the integration of special tiles implementing a different
+ effect to be integrated with no change to the rest of the implentation.
+ Most classes keep the logic contained within them so other clases can use
+ them as a blackbox.
+ For example the move class that enforces some rules on how the tiles are
+ placed, may be changed to add new rules or remove some rules if we change
+ the game but the GameBoard class would not be effected.
+ This would allow the implementation to be altered and new classes that
+ provide the functionalities to be added with no changes to the logic in
+ other classes as long as the new classes continue to uphold the behavioral
+ contracts established.
+\end_layout
+
+\begin_layout Standard
+This design achieves modular decomposability through adherence to the GRASP.
+ The 
+\family typewriter
+GameEngine
+\family default
+ class acts as the controller with its job being the point of entry into
+ the code for the GUI.
+ It recieves requests from the GUI and passes them on to the relevant classes
+ and based on their responses notifies the GUI on any updates that it may
+ need to make.
+ This has made possible to create several small yet highly specialized classes
+ that handle a small subset of problems.
+ As an example, we can look at the 
+\family typewriter
+Move
+\family default
+ class which specializes in tracking and verifying tile placements so it
+ functionas as an information expert for the 
+\family typewriter
+move
+\family default
+ objects.
+ All the validation logic for a move resides in the 
+\family typewriter
+GameBoard
+\family default
+ class so the 
+\family typewriter
+GameEngine
+\family default
+ only needs to call 
+\family typewriter
+board.validateMove
+\family default
+ to ensure that the move is a valid one.
+ The task of verifying the validity of a word is bestowed wholly on the
+ 
+\family typewriter
+Dictionary
+\family default
+ class.
+ No other class has any contribution to the decisions of 
+\family typewriter
+isValidWord
+\family default
+ so modifying the rules there or adding new words will not influence the
+ logic in other clases.
+ The 
+\family typewriter
+GameBoard
+\family default
+ also calculates the points by extracting them from the 
+\family typewriter
+BoardSquare
+\family default
+.
+ Determining the score for a tile placed on a square is completely delgated
+ to the 
+\family typewriter
+BoardSquare
+\family default
+ so that it specializes in providing information of about a square on the
+ board and its contents.
+ The other classes need not keep track of the point values of the tiles
+ and the multiplier of the square.
+ All this handled by the 
+\family typewriter
+BoardSquare
+\family default
+ class.
+ In this situation the LetterTile class acts as an information expert for
+ a particular tile and the BoardSquare class for the properties of a square
+ on the board.
+ Similarly the Person class is the information expert for a player.
+ It holds its name and score so no other class needs to keep track of scores.
+ they can just request it from the Person class.
+ By separating and insulating the implementations of the functionalities
+ offered by each class we make development highly localized so that future
+ development can proceed on the individual components without the need to
+ make large changes in the modules using these components.
+\end_layout
+
+\begin_layout Standard
+The downside of decomposing the problem into smaller modules and using each
+ of them almost like a black box is that we need to assume the result of
+ these mini modules be correct.
+ This leads to a higher level of coupling between the 
+\family typewriter
+GameEngine
+\family default
+ and the other classes while achieving high cohesion.
+ Of course there are contracts which regulate these interactions but if
+ a module violates the contract then there is a high probability that the
+ error will leak into other classes as well leading to a low level of modular
+ protection.
+ This is the price that we must pay for the conveniences offered by having
+ highly specialized modules.
+ Like any assembly line practicing division of labour all proceses rely
+ on the correctness of the preceding process since none of them has any
+ insight into the larger product that they are producing.
+ To overcome this it would require that the preconditions for every class
+ and method be enforced rigourously through exceptions and conditions verifying
+ the results of the previous modules.
+ This design also employs small interfaces to achieve continuity and protection.
+ The 
+\family typewriter
+GameEngine
+\family default
+ is the centerpiece of the design so different classes can function independentl
+y.
+ So, for example, the 
+\family typewriter
+GameBoard
+\family default
+ doesn't need to be aware of the player and vice versa.
+\end_layout
+
+\begin_layout Standard
+The GameEngine class employs the observer pattern to integrate with the
+ user interface.
+ This allows flexibility in creating and adding new UI classes for the game.
+ The GameChangeListener defines the interface that the GameEngine expects
+ from every class that will provide UI functionality, how the class reacts
+ to the notifications is totally upto it.
+ However it can do so while being oblivious of the finer details in the
+ actual implementation of the game.
+ Moreover it opens up the possibility of having multiple UIs for the game
+ by storing a list of GameChangeListeners in the GameEngine and notifications
+ would be sent to all of them.
+\end_layout
+
+\end_body
+\end_document
